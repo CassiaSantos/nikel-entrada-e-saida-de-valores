@@ -58,6 +58,24 @@ header {
     padding: 12px !important;
 }
 
+.button-float {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    background-color: #4e0070 !important;
+    color: #FFFFFF !important;
+    border-radius: 100% !important;
+    font-size: 35px !important;
+    padding: 0px !important;
+}
+
+.button-float:hover{
+    background-color: #FFFFFF !important;
+    color: #4e0070 !important;
+}
+
 .anchor-default {
     text-decoration: none;
     color: #4e0070;
