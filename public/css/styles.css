@@ -1,0 +1,39 @@
+#login {
+    background: linear-gradient(120deg, #4C79D3 44.9%, #FFFFFF 45%) no-repeat fixed;
+}
+
+.text-login {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.coins {
+    position: absolute;
+    bottom: 100px;
+}
+
+.button-login {
+    background-color: #4e0070 !important;
+    color: #FFFFFF !important; 
+    border-radius: 12px;
+    width: 50%;
+    margin: 0px 25%;
+    padding: 12px 0px !important;
+}
+
+.button-login:hover {
+    background-color: #4C79D3 !important;
+    color: #FFFFFF !important; 
+}
+
+.anchor-default {
+    text-decoration: none;
+    color: #4e0070;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.anchor-default:visited, .anchor-default:visited {
+    color: #4C79D3;
+}
