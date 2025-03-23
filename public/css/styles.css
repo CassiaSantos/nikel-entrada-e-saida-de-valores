@@ -76,6 +76,17 @@ header {
     color: #4e0070 !important;
 }
 
+.button-cancel {
+    border-radius: 12px;
+    padding: 12px !important;
+    border: none !important;
+}
+
+.button-cancel:hover {
+    background-color: #4C79D3 !important; 
+    border: none;
+}
+
 .anchor-default {
     text-decoration: none;
     color: #4e0070;
