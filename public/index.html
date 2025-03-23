@@ -59,7 +59,7 @@
                     </form>
 
                     <div class="row">
-                      <div class="col text-center mt-2">
+                      <div class="col text-center mt-2" data-bs-toggle="modal" data-bs-target="#register-modal">
                         <p class="form-text">Ainda não tem uma conta? <a href="#" class="anchor-default">Criar conta</a></p>
                       </div>
                     </div>
@@ -81,6 +81,36 @@
             </div>
           </div>
 
+        </div>
+      </div>
+
+      <!-- Modal de "Criar conta"-->
+      <div class="modal fade" id="register-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Crie sua conta</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="create-user-form">
+              <div class="modal-body">
+                <div class="mb-3">
+                  <label for="email-create-input" class="form-label">Endereço de e-mail</label>
+                  <input type="email" class="form-control" id="email-create-input" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Informe seu e-mail - nunca o compartilharemos com terceiros</div>
+                </div>
+                <div class="mb-3">
+                  <label for="password-create-input" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="password-create-input">
+                  <div id="passwordHelp" class="form-text">Escolha uma senha fácil de lembrar e anote para não esquecer</div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn color-secondary bg-white" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn button-default">Criar Conta</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </main>
