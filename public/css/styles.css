@@ -103,3 +103,11 @@ header {
     border-radius: 20px;
     padding: 20px 0px 25px 0px;
 }
+
+.logout {
+    min-width: 5rem !important;
+}
+
+.menu {
+    margin-right: 24px;
+}
