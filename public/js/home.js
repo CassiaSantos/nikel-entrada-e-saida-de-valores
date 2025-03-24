@@ -29,3 +29,12 @@ function checkLogged() {
 
     console.log(data);
 }
+
+document.getElementById("button-logout").addEventListener("click", logout);
+
+function logout() {
+    sessionStorage.removeItem("logged");
+    localStorage.removeItem("session");
+
+    window.location.href = "index.html";
+}
