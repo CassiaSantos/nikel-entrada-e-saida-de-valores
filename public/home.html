@@ -116,21 +116,21 @@
             <form id="transaction-form">
               <div class="modal-body">
                 <div class="mb-3">
-                  <!-- Valor da transação -->
-                  <label for="value-transaction-input" class="form-label">Valor</label>
-                  <input type="number" class="form-control" id="value-transaction-input">
-                </div>
-
-                <!-- Descrição da transação -->
+                  <!-- Descrição da transação -->
                 <div class="mb-3">
                   <label for="description-transaction-input" class="form-label">Descrição</label>
-                  <input type="text" class="form-control" id="description-transaction-input">
+                  <input type="text" class="form-control" id="description-transaction-input" required>
+                </div>
+
+                  <!-- Valor da transação -->
+                  <label for="value-transaction-input" class="form-label">Valor</label>
+                  <input type="number" class="form-control" id="value-transaction-input" required>
                 </div>
 
                 <!-- Data da transação -->
                 <div class="mb-3">
                   <label for="date-transaction-input" class="form-label">Data da transação</label>
-                  <input type="date" class="form-control" id="date-transaction-input">
+                  <input type="date" class="form-control" id="date-transaction-input" required>
                 </div>
 
                 <!-- Tipo de transação -->
