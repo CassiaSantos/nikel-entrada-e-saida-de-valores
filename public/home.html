@@ -55,7 +55,7 @@
           <!-- Montante e imagem ilustrativa de moedas: -->
           <div class="col mt-4 d-flex justify-content-start align-items-center">
             <i class="bi bi-cash-coin color-primary icon-detail"></i>
-            <span class="fs-2">R$100.000,00</span>
+            <span class="fs-2" id="total-transactions">R$0,00</span>
           </div>
 
           <div class="col d-flex mt-4 justify-content-end">
@@ -86,15 +86,19 @@
 
                 <div class="row">
                   <div class="col-6">
-                    <div class="container"></div>
+                    <div class="container p-0" id="cash-in-list">
+                      <!-- renderização das entradas via JS -->
+                    </div>
                   </div>
 
                   <div class="col-6">
-                    <div class="container"></div>
+                    <div class="container p-0" id="cash-out-list">
+                      <!-- renderização das saídas via JS -->
+                    </div>
                   </div>
 
                   <div class="col-12">
-                    <button type="button" class="btn button-default ">Ver todas as transações</button>
+                    <button type="button" class="btn button-default" id="button-all-transactions">Ver todas as transações</button>
                   </div>
                 </div>
               </div>
